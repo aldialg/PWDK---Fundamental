@@ -1,16 +1,16 @@
-// interface ICar {
-//     brand: string
-//     model: string
-//     price: number
-// }
+interface ICar {
+    brand: string
+    model: string
+    price: number
+}
 
-// const car: ICar = {
-//     brand: "BMW",
-//     model: "M135i xDrive", 
-//     price: 800000000,
-// }
+const car: ICar = {
+    brand: "BMW",
+    model: "M135i xDrive", 
+    price: 800000000,
+}
 
-// //console.log(car)
+console.log(car)
 
 // interface Iperson {
 //     name: string
@@ -45,19 +45,19 @@
 
 // console.log(Object.keys(person))
 
-interface IUser {
-    name: string
-    email: string
-    age: number
-}
+// interface IUser {
+//     name: string
+//     email: string
+//     age: number
+// }
 
-const user: IUser = {
-    name: "Frengky", 
-    email: "frengky@gmail.com",
-    age: 26
-}
+// const user: IUser = {
+//     name: "Frengky", 
+//     email: "frengky@gmail.com",
+//     age: 26
+// }
 
-for (let key in user) {
-    console.log(key)
-    console.log (user[key as keyof typeof user])
-}
+// for (let key in user) {
+//     console.log(key)
+//     console.log (user[key as keyof typeof user])
+// }
